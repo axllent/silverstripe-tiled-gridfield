@@ -1,0 +1,25 @@
+.ss-tiled-gridfield tbody {
+	display: block;
+	overflow: hidden;
+}
+.ss-tiled-gridfield tr.sortable-header {
+	display: none;
+}
+.ss-tiled-gridfield tbody.ss-gridfield-items tr {
+	display: block;
+	float: left;
+	position: relative;
+	min-width: 60px;
+	min-height: 60px;
+}
+.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+	margin: 0;
+	font-size: 0;
+}
+.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .edit-link {
+	display: none;
+}
