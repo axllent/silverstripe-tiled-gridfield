@@ -19,6 +19,10 @@
 	padding: 0;
 	margin: 0;
 	font-size: 0;
+	border: none;
+}
+.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .ss-ui-button {
+	min-height: 20px; /* firefox */
 }
 .ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .edit-link {
 	display: none;
