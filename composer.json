@@ -20,6 +20,6 @@
 		"issues": "https://github.com/axllent/silverstripe-tiled-gridfield/issues"
 	},
 	"require": {
-		"silverstripe/cms": "3.1.*"
+		"silverstripe/cms": ">=3.1.*"
 	}
 }
