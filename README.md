@@ -1,5 +1,5 @@
-Tiled GridField for SilverStripe 3
-==================================
+Tiled GridField for SilverStripe
+================================
 
 Inline/tiled images in a standard SilverStripe GridField table.
 
@@ -14,6 +14,11 @@ The only requirement is that the `$summary_fields` of the DataObject should retu
 and it should be an image (thumbnail). The images should at least all be the same height, preferably cropped.
 
 Please note that if more than one `$summary_fields` is used then the layout will break.
+
+## Installation
+```
+composer require axllent/silverstripe-tiled-gridfield
+```
 
 ## Example
 ```php
