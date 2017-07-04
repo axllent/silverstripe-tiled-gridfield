@@ -73,7 +73,7 @@ class MyPage extends Page
         // add sorting
         $gridFieldConfig->addComponent(new GridFieldSortableRows('SortOrder'));
         $fields->addFieldToTab('Root.Gallery',
-            new TiledGridField('Images', 'Product Images (cropped square, first is main image)', $this->Images(), $gridFieldConfig)
+            new TiledGridField('Images', 'Images', $this->Images(), $gridFieldConfig)
         );
     }
 }
