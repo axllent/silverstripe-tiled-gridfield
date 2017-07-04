@@ -1,5 +1,12 @@
 <?php
 
+namespace Axllent\TiledGridField;
+
+use SilverStripe\Forms\GridField\GridField;
+use SilverStripe\Forms\GridField\GridFieldConfig;
+use SilverStripe\ORM\SS_List;
+
+
 class TiledGridField extends GridField
 {
 

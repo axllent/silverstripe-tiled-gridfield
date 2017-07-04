@@ -12,18 +12,25 @@
 	min-width: 60px;
 	min-height: 60px;
 }
-.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons {
+
+.ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact {
 	position: absolute;
 	top: 0;
-	left: 0;
+    right: 0;
 	padding: 0;
 	margin: 0;
-	font-size: 0;
+    width: auto;
+    display: none;
 	border: none;
 }
-.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .ss-ui-button {
-	min-height: 20px; /* firefox */
+.ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact a {
+    display: none;
 }
-.ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .edit-link {
-	display: none;
+.ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact button {
+    margin: 0;
+    padding: 2px 0 0;
+    height: 20px;
+}
+.ss-tiled-gridfield tbody.ss-gridfield-items tr:hover td.grid-field__col-compact {
+    display: block;
 }

@@ -1,0 +1,3 @@
+mappings:
+  LeftAndMainTiledGridFieldExt: Axllent\TiledGridField\LeftAndMainTiledGridFieldExt
+  TiledGridField: Axllent\TiledGridField\TiledGridField
