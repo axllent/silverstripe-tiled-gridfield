@@ -2,9 +2,11 @@
 	display: block;
 	overflow: hidden;
 }
+
 .ss-tiled-gridfield tr.sortable-header {
 	display: none;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items tr {
 	display: block;
 	float: left;
@@ -12,34 +14,41 @@
 	min-width: 60px;
 	min-height: 60px;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items td {
-    border-top: none!important;
+	border-top: none!important;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact .grid-field__icon-action:hover {
-    background: transparent;
+	background: transparent;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact {
 	position: absolute;
 	top: 2px;
-    right: 2px;
+	right: 2px;
 	padding: 0;
 	margin: 0;
-    width: auto;
-    opacity: 0;
+	width: auto;
+	opacity: 0;
 	border: none;
-    transition: opacity 1s;
+	transition: opacity 1s;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact a {
-    display: none;
+	display: none;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items td.grid-field__col-compact button {
-    margin: 0;
-    padding: 2px 0 0;
-    height: 20px;
+	margin: 0;
+	padding: 2px 0 0;
+	height: 20px;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items tr:hover td.grid-field__col-compact {
-    opacity: 0.5;
+	opacity: 0.5;
 }
+
 .ss-tiled-gridfield tbody.ss-gridfield-items tr:hover td.grid-field__col-compact:hover {
-    opacity: 1;
+	opacity: 1;
 }
