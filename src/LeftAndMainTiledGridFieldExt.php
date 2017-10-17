@@ -10,15 +10,9 @@ use SilverStripe\View\Requirements;
  */
 class LeftAndMainTiledGridFieldExt extends LeftAndMainExtension
 {
-
     public function init()
     {
         parent::init();
-        Requirements::css($this->ModuleBase() . '/css/tiled-gridfield.css');
-    }
-
-    private function ModuleBase()
-    {
-        return basename(dirname(dirname(__FILE__)));
+        Requirements::css('axllent/silverstripe-tiled-gridfield: css/tiled-gridfield.css');
     }
 }

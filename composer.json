@@ -1,7 +1,7 @@
 {
 	"name": "axllent/silverstripe-tiled-gridfield",
 	"description": "Inline/tiled images in a SilverStripe GridField table",
-	"type": "silverstripe-module",
+	"type": "silverstripe-vendormodule",
 	"homepage": "https://github.com/axllent/silverstripe-tiled-gridfield",
 	"keywords": [
 		"silverstripe",
@@ -21,8 +21,14 @@
 		"issues": "https://github.com/axllent/silverstripe-tiled-gridfield/issues"
 	},
     "require": {
-		"silverstripe/framework": "^4.0@dev"
+        "silverstripe/vendor-plugin": "^1.0",
+		"silverstripe/framework": "^4.0"
 	},
+    "extra": {
+        "expose": [
+            "css"
+        ]
+    },
     "autoload": {
         "psr-4": {
             "Axllent\\TiledGridField\\": "src/"
