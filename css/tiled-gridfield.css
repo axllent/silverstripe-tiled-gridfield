@@ -20,7 +20,7 @@
 	margin: 0;
 	font-size: 0;
 	border: none;
-    overflow: visible!important;
+    overflow: visible !important;
 }
 .ss-tiled-gridfield tbody.ss-gridfield-items td.col-buttons .ss-ui-button {
 	min-height: 20px; /* firefox */
