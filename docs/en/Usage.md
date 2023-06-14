@@ -1,9 +1,9 @@
 # Using TiledGridField
 
-Your object's `$summary_fields` should return just one field, and it should be an image (thumbnail).
-The images should all be the same height.
+Your object's `$summary_fields` should return just a thumbnail of the image (thumbnail).
+The images should ideally all be the same height (cropped).
 
-Please note that if more than one `$summary_fields` is used then the layout will break.
+Please note that if more than one `$summary_fields` is used then the layout will likely break.
 
 
 ## Example
@@ -38,6 +38,10 @@ class GalleryImage extends DataObject
         'Thumbnail'
     ];
 
+    public static $owns = [
+        'Image'
+    ];
+
     public function getThumbnail()
     {
         return $this->Image()->exists() ? $this->Image()->Fill(80,80) : false;
@@ -51,7 +55,6 @@ class GalleryImage extends DataObject
 
 use Axllent\TiledGridField\TiledGridField;
 use Colymba\BulkUpload\BulkUploader;
-use SilverStripe\Forms\GridField\Gridfield;
 use SilverStripe\Forms\GridField\GridFieldConfig_RecordEditor;
 use UndefinedOffset\SortableGridField\Forms\GridFieldSortableRows;
 

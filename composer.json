@@ -1,29 +1,29 @@
 {
-	"name": "axllent/silverstripe-tiled-gridfield",
-	"description": "Inline/tiled images in a SilverStripe GridField table",
-	"type": "silverstripe-vendormodule",
-	"homepage": "https://github.com/axllent/silverstripe-tiled-gridfield",
-	"keywords": [
-		"silverstripe",
-		"cms",
-		"tweaks",
-		"gridfield",
+    "name": "axllent/silverstripe-tiled-gridfield",
+    "description": "Inline/tiled images in a Silverstripe GridField table",
+    "type": "silverstripe-vendormodule",
+    "homepage": "https://github.com/axllent/silverstripe-tiled-gridfield",
+    "keywords": [
+        "silverstripe",
+        "cms",
+        "tweaks",
+        "gridfield",
         "gallery"
-	],
-	"license": "MIT",
-	"authors": [
-		{
-			"name": "Ralph Slooten",
-			"homepage": "http://www.axllent.org/"
-		}
-	],
-	"support": {
-		"issues": "https://github.com/axllent/silverstripe-tiled-gridfield/issues"
-	},
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ralph Slooten",
+            "homepage": "http://www.axllent.org/"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/axllent/silverstripe-tiled-gridfield/issues"
+    },
     "require": {
-        "silverstripe/vendor-plugin": "^1.0",
-		"silverstripe/framework": "^4.0"
-	},
+        "silverstripe/vendor-plugin": "^1.0 || ^2.0",
+        "silverstripe/framework": "^4.0 || ^5.0"
+    },
     "extra": {
         "expose": [
             "css"
