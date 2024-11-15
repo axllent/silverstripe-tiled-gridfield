@@ -2,6 +2,11 @@
 
 Notable changes to this project will be documented in this file.
 
+## [2.0.4]
+
+- Replace deprecated LeftAndMainExtension with Extension
+
+
 ## [2.0.3]
 
 - Add support for Silverstripe 5
