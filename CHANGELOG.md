@@ -2,6 +2,11 @@
 
 Notable changes to this project will be documented in this file.
 
+## [2.0.5]
+
+- Bugfix: Remove `LeftAndMainTiledGridFieldExt::init()`
+
+
 ## [2.0.4]
 
 - Replace deprecated LeftAndMainExtension with Extension
