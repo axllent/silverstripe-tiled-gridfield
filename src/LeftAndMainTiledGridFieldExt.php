@@ -10,7 +10,8 @@ class LeftAndMainTiledGridFieldExt extends Extension
 {
     public function init()
     {
-        parent::init();
-        Requirements::css('axllent/silverstripe-tiled-gridfield: css/tiled-gridfield.css');
+        Requirements::css(
+            'axllent/silverstripe-tiled-gridfield: css/tiled-gridfield.css'
+        );
     }
 }
