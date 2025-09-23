@@ -2,6 +2,11 @@
 
 Notable changes to this project will be documented in this file.
 
+
+## [3.0.0]
+
+- Support for Silverstripe 6
+
 ## [2.0.5]
 
 - Bugfix: Remove `LeftAndMainTiledGridFieldExt::init()`

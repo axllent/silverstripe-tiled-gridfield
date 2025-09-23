@@ -1,3 +1,0 @@
-SilverStripe\Admin\LeftAndMain:
-  extensions:
-    - Axllent\TiledGridField\LeftAndMainTiledGridFieldExt

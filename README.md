@@ -11,9 +11,11 @@ to provide a tiled layout.
 
 ## Requirements
 
-- Silverstripe ^4 || ^5
+- Silverstripe ^6
 - [Colymba\BulkUpload](https://github.com/colymba/GridFieldBulkEditingTools) if you require easy uploading (see Usage)
 - [UndefinedOffset\SortableGridField](https://github.com/UndefinedOffset/SortableGridField) if you require sorting (see Usage)
+
+For Silverstripe 4 & 5, please refer to the [Silverstripe5 branch](https://github.com/axllent/silverstripe-tiled-gridfield/tree/silverstripe5).
 
 For Silverstripe 3, please refer to the [Silverstripe3 branch](https://github.com/axllent/silverstripe-tiled-gridfield/tree/silverstripe3).
 
