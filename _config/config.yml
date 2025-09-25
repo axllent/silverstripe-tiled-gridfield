@@ -1,0 +1,3 @@
+SilverStripe\Admin\LeftAndMain:
+  extra_requirements_css:
+    - 'axllent/silverstripe-tiled-gridfield: css/tiled-gridfield.css'
